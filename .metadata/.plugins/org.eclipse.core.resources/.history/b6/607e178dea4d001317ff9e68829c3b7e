@@ -1,0 +1,12 @@
+package id.web.yht.listviewcomposite;
+
+import android.widget.ArrayAdapter;
+
+public class DataAdapter extends ArrayAdapter<DataList> {
+	private ArrayList<DataList> alData;
+	public DataAdapter(Context con, int textViewResourceId, ArrayList<DataList>aldata) {
+		super (con,textViewResourceId,alData);
+		this alData;
+	}
+	
+}
