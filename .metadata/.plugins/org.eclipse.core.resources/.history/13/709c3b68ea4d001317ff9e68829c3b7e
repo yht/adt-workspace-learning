@@ -1,7 +1,0 @@
-package id.web.yht.listviewcomposite;
-
-import android.widget.ArrayAdapter;
-
-public class DataAdapter extends ArrayAdapter<T> {
-
-}
